@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Forms.Bancoform">
+  <grid id="27dc6" binding="PanelBanco" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="506" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2361"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5d3ab" class="javax.swing.JLabel" binding="nombreUsuario">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="16" style="1"/>
+          <foreground color="-16711423"/>
+          <text value="Nombre del cliente:"/>
+        </properties>
+      </component>
+      <component id="824f9" class="javax.swing.JLabel" binding="saldo">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="16" style="1"/>
+          <foreground color="-16711423"/>
+          <text value="Saldo actual"/>
+        </properties>
+      </component>
+      <component id="7621e" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="1" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2361"/>
+          <font name="Segoe Print" size="16"/>
+        </properties>
+      </component>
+      <component id="f5bb2" class="javax.swing.JButton" binding="transferenciaButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5378862"/>
+          <font name="Ink Free" size="16" style="1"/>
+          <text value="Transferencia"/>
+        </properties>
+      </component>
+      <component id="9828b" class="javax.swing.JButton" binding="retiroButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1720882"/>
+          <font name="Ink Free" size="16" style="1"/>
+          <text value="Retiro"/>
+        </properties>
+      </component>
+      <component id="952e1" class="javax.swing.JButton" binding="depositoButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-668511"/>
+          <font name="Ink Free" size="16" style="1"/>
+          <text value="Deposito"/>
+        </properties>
+      </component>
+      <component id="6c5a1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Ink Free" size="18" style="1"/>
+          <foreground color="-16711423"/>
+          <text value="BANCO"/>
+        </properties>
+      </component>
+      <vspacer id="4351a">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="45c7e">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="65b62">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f93d5" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2895957"/>
+          <font name="Ink Free" size="16" style="1"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
