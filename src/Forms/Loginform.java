@@ -44,7 +44,7 @@ public class Loginform extends JFrame {
 
                 if (Usuario.equals("cliente123") && Contrasena.equals("clave456")) {
                     new Bancoform(Usuario);
-                    dispose(); // Cierra login
+                    dispose();
                 } else {
                     JOptionPane.showMessageDialog(null, "Credenciales incorrectas", "Error", JOptionPane.ERROR_MESSAGE);
                 }
